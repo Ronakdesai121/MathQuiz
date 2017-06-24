@@ -1,0 +1,157 @@
+html{
+    background: radial-gradient(circle,#fff,#ccc);
+    height: 100%;
+}
+#container{
+    height: 400px;
+    width: 550px;
+    background-color: aqua;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #2ee5df;
+    position: relative;;
+}
+#score{
+    background-color: #f6e641;
+    color:crimson;
+    padding: 11px;
+    position: absolute;
+    left:500px;
+    box-shadow: 0px 4px #d6d3b7;
+    
+}
+#wrong{
+    background-color:firebrick;
+    color: chartreuse;
+    padding: 10px;
+    left:260px;
+    position: absolute;
+    display: none;
+    
+}
+#correct{ background-color:forestgreen;
+    color:coral;
+    padding: 10px;
+    left:260px;
+    position: absolute;
+    display:none;
+    
+    
+}
+#quiz{
+    width:450px;
+    height: 150px;
+    margin: 50px auto 10px auto;
+    background-color: fuchsia;
+    box-shadow: 0px 4px #2b68ec;
+    font-size: 100px;
+    text-align: center;
+    color: #2bec58;
+    font-family: cursive;
+}
+#msg{
+    width: 450px;
+    height: 50px;
+    margin:auto 50px auto;
+    background-color: #a051e5;
+    text-align: center;
+    color:aqua;
+    line-height: 3;
+}
+#choice{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+    
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: floralwhite;
+    float: left;
+    margin-right:36.5;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 2px #ded8e3;
+    text-align: center;
+    line-height: 80px;
+    color:#ad1919;
+    transition: all 0.2s;
+    -webkite-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    
+    
+}
+#b4{
+    margin-right: 0px;
+}
+#b1:hover{
+    background-color:#59abe2;
+}
+#b2:hover{
+    background-color:#59abe2;
+}
+#b3:hover{
+    background-color:#59abe2;
+}
+#b4:hover{
+    background-color:#59abe2;
+}
+.box:active{
+    box-shadow: 0px 4px #ded8e3;
+    top: 4px;
+    
+}
+#reset{width: 75px;
+    height: 25px;
+    float: left;
+    left:250px;
+    position: absolute;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 2px #6425ca;
+    text-align: center;
+    line-height: 25px;
+    color: aqua;
+    background-color: darkorchid;
+    transition: all 0.2s;
+    -webkite-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    }
+#reset:hover{
+    height: 26px;
+    
+    
+}
+#time{
+    width: 145px;
+    height: 25px;
+    left:430px;
+    position: absolute;
+    text-align: center;
+    line-height: 1.5;
+    background-color:forestgreen;
+    color: aquamarine;
+   /* visibility: hidden;*/
+    display: none;
+     }
+#gameover{
+    width: 500px;
+    height: 180px;
+    background: linear-gradient(#ebc5a1,#f07b0e);
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    padding: 10px;
+    font-size:2.1em;
+    text-align: center;
+    color: #0e47c2;
+    display: none;
+    
+}
+    
