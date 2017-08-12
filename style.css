@@ -18,13 +18,13 @@ html{
     padding: 11px;
     position: absolute;
     left:500px;
-    box-shadow: 0px 4px #d6d3b7;
+    box-shadow: 0px 6px #d6d3b7;
     
 }
 #wrong{
     background-color:firebrick;
     color: chartreuse;
-    padding: 10px;
+    padding: 8px;
     left:260px;
     position: absolute;
     display: none;
